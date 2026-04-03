@@ -410,7 +410,7 @@ function App() {
           </div>
           <div className="mt-4 flex flex-col items-center gap-3 border-t border-gray-800 pt-6 text-center">
             <p className="text-sm text-gray-400">
-              Made with <span className="text-white">love</span> by Vaibhav
+              Made  by Vaibhav
             </p>
             <div className="flex items-center gap-4">
               <a
