@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Scale, Gavel, FileText, Shield, BookOpen, Award, ChevronDown, Youtube, Linkedin, Mail, Phone, MapPin, Menu, X } from 'lucide-react';
+import { Scale, Gavel, FileText, Shield, BookOpen, Award, ChevronDown, Youtube, Linkedin, Mail, Phone, MapPin, Menu, X, Instagram } from 'lucide-react';
 
 
 function App() {
@@ -407,6 +407,31 @@ function App() {
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
             <p>&copy; {new Date().getFullYear()} Advocate Deepanshu Singhal. All rights reserved.</p>
             <p className="mt-2">High Court of Delhi | Advocate & Legal Consultant</p>
+          </div>
+          <div className="mt-4 flex flex-col items-center gap-3 border-t border-gray-800 pt-6 text-center">
+            <p className="text-sm text-gray-400">
+              Made with <span className="text-white">love</span> by Vaibhav
+            </p>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://www.linkedin.com/in/vaibhav-kumar1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link rounded-full border border-gray-700 p-2 transition-colors duration-300 hover:border-white hover:text-white"
+                aria-label="Vaibhav on LinkedIn"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/_.vaibhav____?igsh=MWJhdDJ5ZHN2b2c5NA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link rounded-full border border-gray-700 p-2 transition-colors duration-300 hover:border-white hover:text-white"
+                aria-label="Vaibhav on Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
+            </div>
           </div>
         </div>
       </footer>
